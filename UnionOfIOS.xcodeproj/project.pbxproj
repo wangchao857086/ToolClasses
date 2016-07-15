@@ -13,6 +13,7 @@
 		7FD5E0C91D38C95C0011F391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD5E0C71D38C95C0011F391 /* Main.storyboard */; };
 		7FD5E0CB1D38C95C0011F391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD5E0CA1D38C95C0011F391 /* Assets.xcassets */; };
 		7FD5E0CE1D38C95C0011F391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD5E0CC1D38C95C0011F391 /* LaunchScreen.storyboard */; };
+		7FD5E0D91D38CA2F0011F391 /* CommonDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5E0D81D38CA2F0011F391 /* CommonDateTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7FD5E0CA1D38C95C0011F391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD5E0CD1D38C95C0011F391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD5E0CF1D38C95C0011F391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD5E0D71D38CA2F0011F391 /* CommonDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDateTool.h; sourceTree = "<group>"; };
+		7FD5E0D81D38CA2F0011F391 /* CommonDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDateTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7FD5E0BD1D38C95C0011F391 /* UnionOfIOS */ = {
 			isa = PBXGroup;
 			children = (
+				7FD5E0D61D38CA2F0011F391 /* 日期相关 */,
 				7FD5E0C11D38C95C0011F391 /* AppDelegate.h */,
 				7FD5E0C21D38C95C0011F391 /* AppDelegate.m */,
 				7FD5E0C41D38C95C0011F391 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				7FD5E0BF1D38C95C0011F391 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD5E0D61D38CA2F0011F391 /* 日期相关 */ = {
+			isa = PBXGroup;
+			children = (
+				7FD5E0D71D38CA2F0011F391 /* CommonDateTool.h */,
+				7FD5E0D81D38CA2F0011F391 /* CommonDateTool.m */,
+			);
+			path = "日期相关";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD5E0D91D38CA2F0011F391 /* CommonDateTool.m in Sources */,
 				7FD5E0C61D38C95C0011F391 /* ViewController.m in Sources */,
 				7FD5E0C31D38C95C0011F391 /* AppDelegate.m in Sources */,
 				7FD5E0C01D38C95C0011F391 /* main.m in Sources */,
